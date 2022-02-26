@@ -2,9 +2,11 @@
   "name": "homepage",
   "version": "1.0.0",
   "description": "tyler's home page",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
-    "start": "webpack --watch & http-server -p 8090",
+    "build": "webpack --mode production",
+    "start": "http-server",
+    "start:dev": "webpack --watch --mode development & http-server -p 8090",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
