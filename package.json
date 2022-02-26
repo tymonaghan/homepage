@@ -1,0 +1,34 @@
+{
+  "name": "homepage",
+  "version": "1.0.0",
+  "description": "tyler's home page",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack --watch & http-server -p 8090",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tymonaghan/homepage.git"
+  },
+  "author": "Tyler Monaghan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tymonaghan/homepage/issues"
+  },
+  "homepage": "https://github.com/tymonaghan/homepage#readme",
+  "dependencies": {
+    "http-server": "^14.1.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-router-dom": "^6.2.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.5",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7",
+    "babel-loader": "^8.2.3",
+    "webpack": "^5.69.1",
+    "webpack-cli": "^4.9.2"
+  }
+}
