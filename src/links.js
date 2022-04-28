@@ -23,6 +23,14 @@ const links = {
       url: "https://fantasy.espn.com/hockey/team?leagueId=50104176",
     },
   ],
+  watch: [
+    { name: "YouTubeTV", url: "https://tv.youtube.com/" },
+    { name: "Paramount+", url: "https://www.paramountplus.com/my-list/" },
+    {
+      name: "ESPN+",
+      url: "https://www.espn.com/watch/espnplus/",
+    },
+  ],
 };
 
 export default links;

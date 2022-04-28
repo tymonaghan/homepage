@@ -65,6 +65,23 @@ const Home = () => {
             );
           })}
         </Col>
+        <Col
+          className="m-2"
+          style={{
+            backgroundColor: "gainsboro",
+            borderRadius: "1rem",
+            maxWidth: "20rem",
+          }}
+        >
+          <h2>streaming</h2>
+          {links.watch.map((link, key) => {
+            return (
+              <Button className="m-2" key={key} href={link.url} target="_blank">
+                {link.name}
+              </Button>
+            );
+          })}
+        </Col>
       </Row>
     </Container>
   );
