@@ -9,7 +9,7 @@ const Home = () => {
   return (
     <Container>
       <Row>
-        <h1>Tyler's Homepage</h1>
+        <h1>Ty's Homepage</h1>
         <Col
           md="auto"
           className="m-2"
@@ -19,7 +19,7 @@ const Home = () => {
             maxWidth: "20rem",
           }}
         >
-          <h2>Personal</h2>
+          <h2>personal</h2>
           {links.personal.map((link, key) => {
             return (
               <Button className="m-2" key={key} href={link.url} target="_blank">
@@ -37,8 +37,27 @@ const Home = () => {
             maxWidth: "20rem",
           }}
         >
-          <h2>Job Search</h2>
-          {links.jobSearch.map((link, key) => {
+          <h2>development tools</h2>
+          {links.devTools.map((link, key) => {
+            return (
+              <Button className="m-2" key={key} href={link.url} target="_blank">
+                {link.name}
+              </Button>
+            );
+          })}
+        </Col>
+      </Row>
+      <Row>
+        <Col
+          className="m-2"
+          style={{
+            backgroundColor: "paleGoldenrod",
+            borderRadius: "1rem",
+            maxWidth: "20rem",
+          }}
+        >
+          <h2>hockey</h2>
+          {links.hockey.map((link, key) => {
             return (
               <Button className="m-2" key={key} href={link.url} target="_blank">
                 {link.name}
