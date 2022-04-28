@@ -3,22 +3,9 @@ import Container from "react-bootstrap/Container";
 import Button from "react-bootstrap/Button";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
+import links from "./links";
 
 const Home = () => {
-  const links = {
-    personal: [
-      { name: "gmail", url: "https://mail.google.com/mail/" },
-      { name: "google calendar", url: "https://calendar.google.com/calendar/" },
-      { name: "whatsapp", url: "https://web.whatsapp.com/" },
-    ],
-    jobSearch: [
-      { name: "github", url: "https://www.github.com/tymonaghan" },
-      {
-        name: "LinkedIn",
-        url: "https://www.linkedin.com/in/tyler-monaghan-dev",
-      },
-    ],
-  };
   return (
     <Container>
       <Row>
