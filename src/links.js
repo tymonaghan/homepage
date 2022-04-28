@@ -20,7 +20,7 @@ const links = {
     { name: "github", url: "https://www.github.com/tymonaghan" },
     {
       name: "ESPN FHL",
-      url: "https://fantasy.espn.com/hockey/team?leagueId=50104176",
+      url: "https://fantasy.espn.com/hockey/team?leagueId=50104176&teamId=1",
     },
   ],
   watch: [
