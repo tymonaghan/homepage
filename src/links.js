@@ -18,7 +18,7 @@ const links = {
       name: "FTA registration",
       url: "https://member.daysmartrecreation.com/#/online/blackhawks/dashboard",
     },
-    { name: "github", url: "https://www.github.com/tymonaghan" },
+    { name: "bracket challenge", url: "https://bracketchallenge.nhl.com/en/dashboard" },
     {
       name: "ESPN FHL",
       url: "https://fantasy.espn.com/hockey/team?leagueId=50104176&teamId=1",
