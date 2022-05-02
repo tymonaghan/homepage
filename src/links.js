@@ -3,6 +3,7 @@ const links = {
     { name: "gmail", url: "https://mail.google.com/mail/" },
     { name: "whatsapp", url: "https://web.whatsapp.com/" },
     { name: "google calendar", url: "https://calendar.google.com/calendar/" },
+    { name: "algo-expert questions", url: "https://www.algoexpert.io/questions"},
   ],
   devTools: [
     { name: "github", url: "https://www.github.com/tymonaghan" },
